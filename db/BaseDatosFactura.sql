@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 8                                 */
-/* Created on:     09/10/2018 11:55:14 a. m.                    */
+/* Created on:     09/10/2018 12:18:34 p. m.                    */
 /*==============================================================*/
 
 
@@ -76,7 +76,7 @@ ID_PRO
 create table FACTURA (
    ID_FACT              SERIAL               not null,
    ID_CLI               INT4                 null,
-   FEHCA                DATE                 null,
+   FECHA                DATE                 null,
    constraint PK_FACTURA primary key (ID_FACT)
 );
 
